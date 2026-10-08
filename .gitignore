@@ -1,0 +1,107 @@
+# Gradle files
+.gradle
+build/
+buildOutput/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ/Android Studio
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+*.apk
+*.ap_
+*.dex
+
+# The .settings folder contains Eclipse project settings and should be checked into version control
+# .c9/
+# *.launch
+# .settings/
+# *.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+bin/
+out/
+.class
+
+# Kotlin
+*.kt.bak
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Android Studio specific
+*.jks
+*.keystore
+
+# Generated Proguard files
+proguard_msgs.txt
+
+# Environment variables
+.env
+.env.local
+
+# User-specific files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Gradle wrapper
+!gradle-wrapper.jar
+
+# NDK
+obj/
+
+# Lint
+lint-results.xml
+lint-results-*.xml
+lint-results-*.html
+
+# App signing files
+*.jks
+*.keystore
+key.properties
+
+# Firebase
+google-services.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/.screenshots
+fastlane/test_output/
+
+# Sonar
+.sonarqube/
+
+# Misc
+.externalNativeBuild
+.cxx
